@@ -1,0 +1,187 @@
+@import "compass/css3";
+
+#nav {
+  padding: 0;
+  margin: 0;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+
+}
+#nav_wrapper {
+  /*position: relative;*/
+  top: 0;
+  width: 400px;
+  length: 100px;
+  left: 45%;
+  /*margin: 0;*/
+  text-align: right;
+  float: right;
+  padding-right: 20px;
+  display: inline-block;
+  /*top: ;*/
+
+}
+#nav ul{
+  list-style-type: none;  /*removes the bullet point symbols*/
+  margin: 0;
+  padding:0;
+  length: 100px;
+
+
+  /*position: relative;*/
+}
+#nav ul li {
+  display: inline-block;    /*sets the list items to be next to each other rather than on top*/
+  border: 1px solid black;
+  border-radius: 7px;
+  font-family: sans-serif;
+  font-size: 14px;
+  transition: 0.15s;
+
+}
+#nav ul li:hover {
+  background-color: rgba(0,0,0,0.1);
+  transition: 0.15s;
+}
+#nav ul li a {    /*a for anchor*/
+  text-decoration: none;    /*gets rid of the underline*/
+  /*float: left;*/
+  display: block;   /*displays as block element, allowing for padding to be added*/
+  padding: 10px 20px;   /*top bottom gap 10px right left gap 20px*/
+  color: hotpink;
+}
+#nav ul li a:hover {    /*only takes place when you hover over this element*/
+  color: black;
+}
+#headerBreak {
+  width: 100%;
+  height: 0;
+  border-bottom: 2px solid black;
+}
+#logo {
+  float: left;
+  font-family: 'Lato', sans-serif;
+  padding-left: 20px;
+  font-size: 32px;
+}
+#logo a {
+  text-decoration: none;
+  color: black;
+}
+#banner {
+  width: 100%;
+  display: block;
+}
+#banner_image {
+  width: 100%;
+  display: block;
+}
+/*
+#main {
+  /*border: 100px;
+  margin: 100px;
+  height: 200px;
+  background-color: white;
+}
+#searchbox {
+  width: 500px;
+  margin: 50px auto;
+}
+#search {
+  padding: 8px 15px;
+  background: rgba(50, 50, 50, 0.2);
+  border: 0px solid #dbdbdb;
+}
+#submit {
+  position: relative;
+  padding: 6px 15px;
+  left: -8px;
+  border: 2px solid #207cca;
+  background-color: #207caa;
+  color: #fafafa;
+}
+*/
+#main {
+  padding: 0 25px 0 25px;
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  overflow: hidden;
+  background: transparent;
+  margin: 0;
+  position: static;
+  display: flex;
+}
+#searchbox {
+  /*overflow: hidden;*/
+  width: 80%;
+  position: relative;
+}
+#search {
+  width: 40%;
+  box-sizing: content-box;
+  height: 35px;
+  padding: 0 46px 0 10px;
+  border-color: #888;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 2px;
+  margin-top: auto;
+  color: #333;
+  margin-left: 20px;
+}
+#submit {
+  position: absolute;
+  top: auto;
+  bottom: 0px;
+  /*right: 160px;*/
+  right: 54%;
+  left: auto;
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  margin-top: 15px;
+
+
+  background: transparent;
+  line-height: 0px;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.5);
+
+}
+#search:hover {
+  background-color: black;
+}
+#submit:hover {
+  background-color: red;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 32px;
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+}
+body {
+  padding: 0;
+  margin: 0;
+
+  background: #DD5E89; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #DD5E89 , #F7BB97); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #DD5E89 , #F7BB97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+  /*background: #403B4A; /* fallback for old browsers */*/
+  /*background: -webkit-linear-gradient(to left, #403B4A , #E7E9BB); /* Chrome 10-25, Safari 5.1-6 */*/
+  /*background: linear-gradient(to left, #403B4A , #E7E9BB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */*/
+
+
+
+}
